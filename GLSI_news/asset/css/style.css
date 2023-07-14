@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+html {
+  box-sizing: border-box;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 720px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.menu li {
+  width: 125px;
+  height: 50px;
+  transition: background-position-x 0.9s linear;
+  text-align: center;
+}
+
+  nav > ul > a {
+    font-size: 22px;
+    font-family: cursive;
+    color: white;
+    text-decoration: none;
+    transition: all 0.45s;
+  }
+
+#entete{
+  text-align: center;
+  font-family: cursive;
+  color: white;
+  background-color: #434040;
+  border-radius: 8px;
+}
+.entete {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  
+}
+
+nav{
+  text-align: center;
+  font-family: cursive;
+  color: white;
+  background-color: #434040;
+  border-radius: 8px;
+  border: 1px solid white;
+}
+li {
+  border-right: 1px solid white;
+}
+
+nav > ul > a:hover {
+  box-shadow: inset 200px 0 0 0 #242020;
+  color: white;
+  border-left: 1px solid white;
+}
+.active{
+  background-color: #242020;
+  border-left: 1px solid white;
+  color: #26b;
+}
+h2{
+  text-align: center;
+  font-family: cursive;
+  font-size: 28px;
+}
+
+.actu {
+  margin-left: 5%;
+  padding-left: 2%;
+  width: 90%;
+  border: 2px solid grey;
+  border-radius: 8px;
+  background-color: lightgrey;
+}
+a {
+  font-size: 22px;
+    font-family: cursive;
+    color: #434040;
+    text-decoration: none;
+}
+a:hover{
+  box-shadow: inset 100px 0 0 0 #242020;
+  color: white;
+}
+.description{
+  font-size: 18px;
+  font-family: cursive;
+}
+.date{
+  font-size: 18px;
+  font-family: cursive;
+  text-align: right;
+}
+nav > form > ul > li > input {
+  font-size: 22px;
+    font-family: cursive;
+    color: #434040;
+    text-decoration: none;
+}
+#title {
+  font-size: 22px;
+    font-family: cursive;
+    color: #434040;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
